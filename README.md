@@ -3,6 +3,8 @@
 This is a test vscode extension
 Idk wtf it is rn but i think ill make it be able to interact with my meme api and make memes from vscode
 
+![](/ext_example.gif)
+
 <!-- This is the README for your extension "imageapi". After writing up a brief description, we recommend including the following sections.
 
 ## Features
