@@ -22,7 +22,7 @@ async function activate(context) {
 			return vscode.window.showErrorMessage('You must input text for this to work');
 		}
 		const text = searchQuery.replace(" ", "+")
-		vscode.env.showInformationMessage("Image Saved!");
+		vscode.window.showInformationMessage("Image Saved!");
 		vscode.env.openExternal(`https://memegenapi.herokuapp.com/api/abandon/?text=${text}`);
 
 	});
