@@ -10,15 +10,21 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:imageapi.helloWorld"
+        "onCommand:imageapi.helloWorld",
+        "onCommand:imageapi.abandon"
 	],
 	"main": "./extension.js",
 	"contributes": {
-		"commands": [{
-            "command": "imageapi.helloWorld",
-            "title": "Hello World"
-
-		}]
+		"commands": [
+			{
+				"command": "imageapi.helloWorld",
+            	"title": "Hello World"
+			},
+			{
+				"command": "imageapi.abandon",
+            	"title": "Abandon"
+			}		
+		]
 	},
 	"scripts": {
 		"lint": "eslint .",
